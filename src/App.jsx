@@ -13,6 +13,7 @@ function App() {
         <Route path="/" element={<Project_1 />} />;
         <Route path="/project-2" element={<Project_2 />} />
       </Routes>
+      {/* <Project_2/> */}
     </>
   );
 }

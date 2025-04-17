@@ -22,6 +22,8 @@ a:hover {
 } */
 
 body {
+  width: 100%;
+  min-height: 100vh;
   /* margin: 0; */
   /* display: flex; */
   /* place-items: center; */
@@ -29,10 +31,10 @@ body {
   /* min-height: 100vh; */
 }
 
-h1 {
+/* h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
+} */
 
 /* button {
   border-radius: 8px;
@@ -53,7 +55,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } */
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -64,7 +66,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
 
 .active{
   color:#747bff

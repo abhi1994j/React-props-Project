@@ -5,12 +5,12 @@ const Cards = ({key,title,code}) => {
     <>
       <div
         key={key}
-        className={`max-w-sm w-[50%] h-[250px] bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700`}
+        className={`max-w-sm w-[50%] h-[250px] bg-white border-4 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700`}
       >
         <a href="#">
           <div
             style={{ backgroundColor: code }}
-            className="rounded-t-lg w-full h-[70%]"
+            className="rounded-t-lg w-full h-[150px]"
           >
             
           </div>

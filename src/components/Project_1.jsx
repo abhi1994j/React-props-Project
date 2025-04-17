@@ -14,10 +14,10 @@ const colors = [
 
 const Project_1 = () => {
   return (
-    <div className="p-6">
-      <div className="flex flex-wrap items-center gap-2 m-2">
+    <div className="p-6 w-[100%] min-h-screen mt-10">
+      <div className="flex flex-wrap items-center h-full w-full gap-2 m-2">
         {colors.map((color, index) => (
-          <Cards key={index} title={color.colorName} code={color.colorCode} />
+           <Cards key={index} title={color.colorName} code={color.colorCode} />
         ))}
       </div>
     </div>
